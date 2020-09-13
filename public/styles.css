@@ -1,0 +1,28 @@
+.jumbotron {
+    color: white;
+    background-color: #5203fc;
+}
+
+.card {
+    width: 18rem;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 800px;
+    height: 600px;
+}

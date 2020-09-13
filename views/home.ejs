@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <h2 class="display-4">Welcome!</h2>
+            <p class="lead">Discover who you are</p>
+        </div>
+    </header>
+        <form class="form" action="/" method="POST">
+            <div class="form">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Your Name" required><br>
+    
+                <label for="about">About You</label>
+                <input type="text" class="form-control" name="about" placeholder="Something about you" required><br>
+    
+                <label for="image">Image</label>
+                <input type="text" class="form-control" name="image" placeholder="Image URL"><br>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+</body>
+</html>
